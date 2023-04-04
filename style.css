@@ -178,7 +178,7 @@ blockquote {
   column-gap: 0;
   row-gap: 1rem;
   grid-template-areas:
-    'callout animation-list'
+    'callout color-list'
     'footer aimation-list';
 
   max-width: 100%;
@@ -247,14 +247,14 @@ blockquote {
   }
 }
 
-.animation-list {
+.color-list {
   position: absolute;
   top: 0;
   left: 100%;
   height: 100%;
   z-index: 90;
 
-  grid-area: animation-list;
+  grid-area: color-list;
   grid-row: 1 / 3;
   overflow-y: auto;
   padding: 2rem;
@@ -266,12 +266,12 @@ blockquote {
   background-color: var(--c-background-dark);
 }
 
-.animationList-active .animation-list {
+.animationList-active .color-list {
   transform: translateX(-100%);
 }
 
 @media (min-width: 700px) {
-  .animation-list {
+  .color-list {
     position: relative;
     left: auto;
     transform: none !important;
@@ -287,13 +287,13 @@ blockquote {
   text-align: center;
 }
 
-.animation-item {
+.color-item {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
 }
 
-.animation-item--title {
+.color-item--title {
   width: 100%;
 }
 
@@ -350,12 +350,12 @@ blockquote {
   z-index: -1;
 }
 
-.animation-item:hover .copy-icon {
+.color-item:hover .copy-icon {
   visibility: visible;
 }
 
-.animation-item .copy-icon:hover,
-.animation-item .copy-icon:hover::before {
+.color-item .copy-icon:hover,
+.color-item .copy-icon:hover::before {
   border-color: black;
 }
 
@@ -363,18 +363,18 @@ blockquote {
   visibility: visible;
 }
 
-.animation-group,
-.animation-title {
+.color-group,
+.color-title {
   font-size: 1rem;
 }
 
-.animation-title {
+.color-title {
   margin-bottom: 0.2em;
 
   color: var(--c-dark);
 }
 
-.animation-group {
+.color-group {
   margin: 0;
   padding: 0;
 
@@ -623,7 +623,7 @@ blockquote {
   text-align: left;
 }
 
-.animation-list {
+.color-list {
   text-align: left;
 }
 
@@ -694,7 +694,7 @@ blockquote {
   background: #111;
 }
 
-.dark .animation-list,
+.dark .color-list,
 .dark .sidebar {
   background: #15151d;
 }
