@@ -1,0 +1,12 @@
+@each $name,
+$color in $colors {
+    .color__#{$name} {
+        color: $color !important;
+    }
+    .color__#{$name}-bg {
+        background-color: $color !important;
+    }
+    .color__#{$name}-border {
+        border-color: $color !important;
+    }    
+}

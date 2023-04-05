@@ -1,10 +1,10 @@
+import sideBarClickHandler from "./dist/js/sideBarClickHandler.js";
+import sideBarColorGroupInjector from "./dist/js/sideBarColorGroupInjector.js";
+
 $(function () {
+    sideBarColorGroupInjector();
     sideBarClickHandler();
 });
 
-const sideBarClickHandler = () => {
-    $(".color-item").on("click",function(){
-       let class_title =  $(this).find('.color-item--title').text();
-        $(".callout-title").removeClass().addClass('callout-title color__colored').addClass(class_title);
-    });
-}
+
+
