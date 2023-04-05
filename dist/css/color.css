@@ -47,15 +47,15 @@
 }
 
 .color__blue {
-  color: blue !important;
+  color: #1414d2 !important;
 }
 
 .color__blue-bg {
-  background-color: blue !important;
+  background-color: #1414d2 !important;
 }
 
 .color__blue-border {
-  border-color: blue !important;
+  border-color: #1414d2 !important;
 }
 
 .color__indigo {
@@ -71,39 +71,39 @@
 }
 
 .color__violet {
-  color: #6C4796 !important;
+  color: violet !important;
 }
 
 .color__violet-bg {
-  background-color: #6C4796 !important;
+  background-color: violet !important;
 }
 
 .color__violet-border {
-  border-color: #6C4796 !important;
+  border-color: violet !important;
 }
 
 .color__purple {
-  color: purple !important;
+  color: #710371 !important;
 }
 
 .color__purple-bg {
-  background-color: purple !important;
+  background-color: #710371 !important;
 }
 
 .color__purple-border {
-  border-color: purple !important;
+  border-color: #710371 !important;
 }
 
 .color__pink {
-  color: pink !important;
+  color: #fb00cd !important;
 }
 
 .color__pink-bg {
-  background-color: pink !important;
+  background-color: #fb00cd !important;
 }
 
 .color__pink-border {
-  border-color: pink !important;
+  border-color: #fb00cd !important;
 }
 
 .color__black {
