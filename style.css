@@ -6,6 +6,7 @@
   --c-main: #351c75;
   --c-secondary: #e69138;
   --c-dark: #333;
+  --c-light-dark: #ffcc95;
   --c-background: #fce5cd;
   --c-background-dark: #f7d7b5;
 }
@@ -367,11 +368,28 @@ blockquote {
 .color-title {
   font-size: 1rem;
 }
+.color-group,
+.color-subtitle {
+  font-size: 0.85rem;
+}
 
 .color-title {
   margin-bottom: 0.2em;
 
   color: var(--c-dark);
+}
+.color-subtitle {
+  margin-top: 0.2em;
+
+  color: var(--c-dark);
+}
+.color-subtitle::after {
+  content: ' ';
+  display: block;
+  width: 80%;
+  height: 2px;
+  margin-bottom: 0.5em;
+  background-color: var(--c-secondary);
 }
 
 .color-group {
