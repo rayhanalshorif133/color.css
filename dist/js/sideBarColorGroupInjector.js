@@ -1,7 +1,7 @@
+import { colors } from './colors.js'
 const sideBarColorGroupInjector = () => {
     let color_group = '';
     let color_group_bg = '';
-    let colors = ['red','orange','yellow','green','blue','indigo','violet','purple','pink','black','white','gray','brown']
     for (let index = 0; index < colors.length; index++) {
         const color = colors[index];
         color_group = `
