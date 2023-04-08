@@ -784,10 +784,15 @@ blockquote {
   color: #4672fe;
 }
 
-.range-container,.toggle-container{
+.range-container{
   justify-content: center;
   display: flex;
   margin-top: 2.5rem;
+}
+.toggle-container{
+  justify-content: center;
+  display: flex;
+  margin-top: 0.5rem;
 }
 
 .range{
