@@ -680,6 +680,7 @@ blockquote {
   transform: translateX(28px);
 }
 
+
 .moon-svg,
 .sun-svg {
   width: 16px;
@@ -755,7 +756,7 @@ blockquote {
   color: #4672fe;
 }
 
-.range-container{
+.range-container,.toggle-container{
   justify-content: center;
   display: flex;
   margin-top: 2.5rem;
