@@ -211,6 +211,7 @@ blockquote {
   margin-bottom: 0;
   animation-delay: 0.25s;
   font-size: 7rem;
+  text-transform: uppercase;
 }
 
 @media (min-width: 700px) {
