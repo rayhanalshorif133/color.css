@@ -13,6 +13,3 @@ $(function () {
     }, 3000);
     rangeSlider();
 });
-
-
-

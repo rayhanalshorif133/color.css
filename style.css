@@ -79,6 +79,9 @@ pre code {
   font-size: 0.8rem !important;
 }
 
+
+
+
 /*-----------------------------------*\
   $TYPOGRAPHY
 \*-----------------------------------*/
@@ -200,19 +203,14 @@ blockquote {
 
 .callout {
   grid-area: callout;
-  align-self: center;
   justify-self: center;
-
   text-align: center;
 }
 
 .callout-title {
   margin-bottom: 0;
-
   animation-delay: 0.25s;
-
   font-size: 7rem;
-  font-size: min(18vw, 7rem);
 }
 
 @media (min-width: 700px) {
@@ -755,9 +753,17 @@ blockquote {
 .dark a {
   color: #4672fe;
 }
+
+.range-container{
+  justify-content: center;
+  display: flex;
+  margin-top: 2.5rem;
+}
+
 .range{
   justify-content: center;
   display: flex;
+  cursor: pointer;
 }
 .range-slider {
 	position: relative;
