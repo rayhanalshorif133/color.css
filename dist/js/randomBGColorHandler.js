@@ -1,6 +1,5 @@
 import { colors } from './colors.js'
 const randomBGColorHandler = () => {
-    console.log("randomBGColorHandler");
     $(".color__colored").each(function () {
         if ($(this).hasClass("color__random-bg")){
             const color = colors[Math.floor(Math.random() * colors.length)];
