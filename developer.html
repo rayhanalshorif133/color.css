@@ -61,7 +61,22 @@
                 border: 7px solid #F7D7B5;
                 padding: 50px;
                 margin: 20px;
+                text-align: center;
+                font-size: 20px;
+                transition: all 0.3s ease-in-out;
             }
+        .box:hover,
+        .active__box
+         {
+            cursor: pointer;
+            background-color: #F7D7B5;
+            color: #fff;
+            font-size: 25px;
+            border: 7px solid #f5bb7e;
+            box-shadow: 1px 1px 10px #f5bb7e,
+                        -1px -1px 10px #f5bb7e,
+                        1px -1px 10px #f5bb7e;
+        }
     </style>
     
 </head>
@@ -76,18 +91,33 @@
     <article class="intro">
         <div class="row text-uppercase">
             <div class="col-md-4">
-                <div class="box color__colored color__random-bg">
+                <div class="box color__colored">
                     Pattern 1
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="box color__colored color__random-bg">
+                <div class="box color__colored">
                     Pattern 2
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="box color__colored color__random-bg">
+                <div class="box color__colored">
                     Pattern 3
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box color__colored">
+                    Pattern 4
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box color__colored">
+                    Pattern 5
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box color__colored">
+                    Pattern 6
                 </div>
             </div>
         </div>
@@ -190,7 +220,7 @@
     <script src="https://cdn.jsdelivr.net/gh/rayhanalshorif133/color.css/dist/js/color__colored.min.js">
 
     </script>
-    <!-- <script src="dist/js/color__colored.min.js"></script> -->
+    <script type="module" src="dist/js/developer.js"></script>
 </body>
 
 </html>
