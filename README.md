@@ -24,5 +24,5 @@ https://cdn.jsdelivr.net/gh/rayhanalshorif133/color.css/main.js
   ```
   - Step 2: Link this CDN (Js)
   ```html
-  <script src="https://cdn.jsdelivr.net/gh/rayhanalshorif133/color.css/dist/js/color.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/rayhanalshorif133/color.css/dist/js/color__colored.min.js"></script>
   ```
