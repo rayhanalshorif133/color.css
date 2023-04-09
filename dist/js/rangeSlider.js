@@ -1,20 +1,19 @@
-rangeSlider = () => {
-    const slider_input = document.getElementById('slider_input'),
-        slider_thumb = document.getElementById('slider_thumb'),
-        slider_line = document.getElementById('slider_line');
+const rangeSlider = () => {
+    var newSize = 0;
+    var newSizeMargin = 0;
+    $("#range").on("change", function () {
+        newSize = $(this).val() + "rem";
+        newSizeMargin = $(this).val() + "rem";
 
-    function showSliderValue() {
-        slider_thumb.innerHTML = slider_input.value;
-        const bulletPosition = (slider_input.value / slider_input.max),
-            space = slider_input.offsetWidth - slider_thumb.offsetWidth;
-
-        slider_thumb.style.left = (bulletPosition * space) + 'px';
-        slider_line.style.width = slider_input.value + '%';
-    }
-
-    showSliderValue();
-    window.addEventListener("resize", showSliderValue);
-    slider_input.addEventListener('input', showSliderValue, false);
-}
+        if (parseInt($(this).val()) > 12) {
+            newSizeMargin = "12rem";
+        }
+        if (parseInt($(this).val()) < 8) {
+            newSizeMargin = "12rem";
+        }
+        $(".callout-title").css('font-size', newSize);
+        $(".callout-title").css('margin-top', newSizeMargin);
+    });
+};
 
 export default rangeSlider;
